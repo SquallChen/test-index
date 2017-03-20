@@ -1,0 +1,356 @@
+body,div,p{
+    margin:0;
+}
+body{
+    background: #000 url(images/bg.jpg);
+}
+/*header*/
+#header{
+    display: flex;
+    justify-content: center;
+    margin-top:61px;
+}
+#header .div1{
+background: url(images/3.jpg) -20px -10px no-repeat;
+min-width:72px;
+min-height:72px;
+border-radius:99em;
+margin-bottom:34px;
+background-size:120px 120px; 
+}
+
+/**NAV*/
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#nav p{
+text-align: center;
+background:#fdfe00;
+border-radius: 15px;
+min-width:128px;
+min-height:24px;
+display: inline-block;
+margin-bottom:24px;
+line-height: 24px;
+}
+
+
+
+/*main*/
+#main{
+background:#000 ;
+
+min-width:320px;
+min-height:319px;
+margin-top:10px;
+margin-bottom:42px;
+}
+@media screen and (min-width:768px){
+#main{
+background:#000;
+min-width:320px;
+min-height:220px;
+margin-top:10px;
+margin-bottom:42px;
+} 
+}
+#main .div2{
+display: flex;
+justify-content:space-around;
+flex-wrap: wrap;
+padding-top:56px;
+}
+#main .title1{
+background:#fd5e00;
+border-radius:14px;
+min-width:200px;
+height:40px;
+display: inline-block;
+text-align: center;
+line-height: 40px;
+margin-bottom:19px;
+}
+@media screen and (min-width:400px){
+#main .title1{
+background:#fd5e00;
+border-radius:14px;
+min-width:250px;
+height:40px;
+display: inline-block;
+text-align: center;
+line-height: 40px;
+margin-bottom:19px;
+}
+#nav p{
+text-align: center;
+background:#fdfe00;
+min-width:150px;
+min-height:24px;
+display: inline-block;
+margin-bottom:24px;
+line-height: 24px;
+}
+}
+#main .div3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top:27px;
+
+}
+#main .p1{
+background:#b5cc1a;
+border-radius:14px;
+min-width:250px;
+min-height:24px;
+display: inline-block;
+text-align: center;
+margin-bottom:19px;
+line-height: 24px;
+}
+
+
+/*foot*/
+#foot{
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+#foot .div4{
+
+}
+ #foot .div5{
+background:#d8d8d8 url(images/5.jpg) -10px -30px;
+border-radius:4px;
+min-width:288px;
+min-height:180px;
+
+ }
+  #foot .div6{
+background:#d8d8d8 url(images/6.jpg) -10px -30px;
+border-radius:4px;
+min-width:288px;
+min-height:180px;
+
+ }
+  #foot .div7{
+background:#d8d8d8 url(images/7.jpg) -200px -0px;
+border-radius:4px;
+min-width:288px;
+min-height:180px;
+
+ }
+  #foot .div8{
+background:#d8d8d8 url(images/8.jpg) -100px -50px;
+border-radius:4px;
+min-width:288px;
+min-height:180px;
+
+ }
+   #foot .div9{
+background:#d8d8d8 url(images/9.jpg) -110px -10px;
+border-radius:4px;
+min-width:288px;
+min-height:180px;
+
+ }
+  #foot .div10{
+background:#d8d8d8 url(images/10.jpg) -100px -10px;
+border-radius:4px;
+min-width:288px;
+min-height:180px;
+
+ }
+ #foot .p2{
+background:#ff1700;
+border-radius:4px;
+min-width:204px;
+min-height:24px;
+display: inline-block;
+margin-top:20px;
+margin-bottom:14px;
+text-indent: 10px;
+line-height: 24px;
+
+ }
+#foot .p3{
+background:#fcff00;
+border-radius:4px;
+min-width:288px;
+min-height:16px;
+line-height: 16px;
+margin-bottom:32px;
+font-size: 14px;
+text-indent: 10px;
+ }
+ @media screen and (min-width:1024px){
+ #foot .div5{
+background:#d8d8d8 url(images/5.jpg);
+border-radius:4px;
+min-width:388px;
+min-height:250px;
+ }
+  #foot .div6{
+background:#d8d8d8 url(images/6.jpg) -10px -20px;
+border-radius:4px;
+min-width:388px;
+min-height:250px;
+
+ }
+  #foot .div7{
+background:#d8d8d8 url(images/7.jpg) -100px -0px;
+border-radius:4px;
+min-width:388px;
+min-height:250px;
+
+ }
+  #foot .div8{
+background:#d8d8d8 url(images/8.jpg) -100px -40px;
+border-radius:4px;
+min-width:388px;
+min-height:250px;
+  }
+  #foot .div9{
+background:#d8d8d8 url(images/9.jpg) -50px -10px;
+border-radius:4px;
+min-width:388px;
+min-height:250px;
+
+ }
+  #foot .div10{
+background:#d8d8d8 url(images/10.jpg) -50px -10px;
+border-radius:4px;
+min-width:388px;
+min-height:250px;
+
+ }
+ #main{
+background:#000;
+min-width:320px;
+min-height:220px;
+margin-top:30px;
+margin-bottom:70px;
+} 
+#foot .div4{
+margin-bottom:35px;
+}
+#nav p{
+text-align: center;
+background:#fdfe00;
+min-width:200px;
+min-height:32px;
+display: inline-block;
+margin-bottom:24px;
+line-height: 32px;
+}
+#header .div1{
+background: url(images/3.jpg) -35px -10px no-repeat;
+min-width:120px;
+min-height:120px;
+border-radius:99em;
+margin-bottom:34px;
+background-size:200px 200px; 
+}
+#foot .p2{
+background:#ff1700;
+border-radius:4px;
+min-width:250px;
+min-height:30px;
+display: inline-block;
+margin-top:28px;
+margin-bottom:20px;
+text-indent: 20px;
+line-height: 30px;
+
+ }
+#foot .p3{
+background:#fcff00;
+border-radius:4px;
+min-width:288px;
+min-height:24px;
+line-height: 24px;
+margin-bottom:32px;
+font-size: 18px;
+text-indent: 10px;
+ }
+ #main .title1{
+background:#fd5e00;
+border-radius:14px;
+min-width:300px;
+height:60px;
+display: inline-block;
+text-align: center;
+line-height: 60px;
+margin-bottom:19px;
+font-size: 35px;
+}
+#nav p{
+text-align: center;
+background:#fdfe00;
+min-width:200px;
+min-height:30px;
+display: inline-block;
+margin-bottom:24px;
+font-size: 24px;
+}
+#main .p1{
+background:#b5cc1a;
+border-radius:14px;
+min-width:250px;
+min-height:30px;
+display: inline-block;
+text-align: center;
+margin-bottom:19px;
+font-size:20px;
+line-height: 30px;
+
+}
+@media screen and (min-width:1280px){
+  #foot .div5{
+background:#d8d8d8 url(images/5.jpg);
+border-radius:4px;
+min-width:480px;
+min-height:320px;
+background-size: 480px 320px;
+ }
+  #foot .div6{
+background:#d8d8d8 url(images/6.jpg);
+border-radius:4px;
+min-width:480px;
+min-height:320px;
+background-size: 480px 320px;
+ }
+  #foot .div7{
+background:#d8d8d8 url(images/7.jpg);
+border-radius:4px;
+min-width:480px;
+min-height:320px;
+background-size: 480px 320px;
+ }
+  #foot .div8{
+background:#d8d8d8 url(images/8.jpg);
+border-radius:4px;
+min-width:480px;
+min-height:320px;
+background-size: 480px 320px;
+  }
+  #foot .div9{
+background:#d8d8d8 url(images/9.jpg);
+border-radius:4px;
+min-width:480px;
+min-height:320px;
+background-size: 480px 320px;
+ }
+  #foot .div10{
+background:#d8d8d8 url(images/10.jpg);
+border-radius:4px;
+min-width:480px;
+min-height:320px;
+background-size: 480px 320px;
+ }  
+}
+}
